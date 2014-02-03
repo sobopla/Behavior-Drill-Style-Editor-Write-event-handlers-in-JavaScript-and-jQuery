@@ -2,9 +2,12 @@
  
 ##Learning Competencies 
 
+* Write custom event handlers in JavaScript and jQuery 
+* Change the DOM based on events
+
 ##Summary 
 
- Forms are what allows users to send data to the server.  They are much more than just logging in and signing up for email newsletters.
+Forms are what allows users to send data to the server.  They are much more than just logging in and signing up for email newsletters.
 
 In this challenge, we're going to play with forms not as tools for sending data to the server, but as a way to allow users to manipulate the DOM using JavaScript.  Specifically, we're going to build a form that will allow a user to dynamically change the styles.
 
@@ -17,9 +20,9 @@ To make it work, you should be familiar with the following concepts:
 
 If you bind to the `submit` event, you should consider using the [event.preventDefault() method](http://api.jquery.com/event.preventDefault/) provided by jQuery.
 
-## Objectives
+##Releases
 
-### Dynamic Styling
+###Release 0 : Dynamic Styling
 
 It may seem obvious what you have to do, but just to make it extra clear what the expected behavior is:
 
@@ -28,21 +31,27 @@ It may seem obvious what you have to do, but just to make it extra clear what th
 - Enter a CSS value for the property (e.g. if the property is `color`, enter something like `blue` or `#00f`)
 - Click the button and watch the page magically transform before your eyes!
 
-Here is a video showing this behavior in action:
+Here is a video showing this behavior in action: [Style Changer Video](http://www.youtube.com/embed/oiVBJ0wPnLA)
 
-<iframe width="640" height="480" src="http://www.youtube.com/embed/oiVBJ0wPnLA?rel=0" frameborder="0" allowfullscreen></iframe>
+In its essence, the solution to this problem can be broken down into three parts: 
 
-In its essence, the solution to this problem can be broken down into three parts: (1) **retrieving** the values from the form, (2) **passing** those values into the correct jQuery function for manipulating CSS, and (3) **binding** the previous two parts to a particular event using an event handler.  If you think about it this way, you will (hopefully) write much cleaner and more loosely coupled code.
+1. **retrieving** the values from the form, 
+2. **passing** those values into the correct jQuery function for manipulating CSS, and  
+3. **binding** the previous two parts to a particular event using an event handler.  
+
+If you think about it this way, you will (hopefully) write much cleaner and more loosely coupled code.
 
 If you are having trouble solving this problem, ask yourself the following questions:
 
 - Is my code correctly bound to the appropriate event?  If not, how can I test for this?
-- Do I know how to retreive the values from the form?
+- Do I know how to retrieve the values from the form?
 - Am I correctly passing the user data into the function that modifies the page styles? 
 
-##Releases
-###Release 0 
 
-##Optimize Your Learning 
+<!-- ##Optimize Your Learning  -->
 
 ##Resources
+
+* [jQuery][jQuery]
+
+[jQuery]:http://learn.jquery.com
