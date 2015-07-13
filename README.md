@@ -42,7 +42,7 @@ It may seem obvious what you have to do, but just to make it extra clear what th
 - Click the button and watch the page magically transform before your eyes!
 
 Here is a video showing this behavior in action: [Style Changer
-Video](http://www.youtube.com/embed/oiVBJ0wPnLA)
+Video](https://vimeo.com/130697557)
 
 In its essence, the solution to this problem can be broken down into three parts:
 
